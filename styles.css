@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+#navbar {
+  background: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(12, 10, 10, 0.06);
+}
+
+.nav__container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #ed2323;
+  margin-left: 15px;
+}
+
+.nav__logo--container img {
+  width: 20%;
+  height: 35%;
+}
+
+.info__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-container span {
+  margin-right: 4px;
+}
+
+.nav__links--container h1 {
+  font-weight: 600;
+}
+
+.nav__links--container h3 {
+  font-weight: 500;
+}
+
+.section-container {
+  margin-top: 50px;
+  background-color: white;
+}
+
+.section-props {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.section-services {
+  flex: 1;
+  background-color: #e3e6f3;
+
+  padding: 5px 10px;
+}
+
+.section-content {
+  flex: 3;
+  margin-left: 5%;
+  background-color: #e3e6f3;
+  padding: 13px 20px;
+}
+
+.section-content_footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+  flex: 3;
+  margin-left: 30%;
+  background-color: #e3e6f3;
+  margin-top: 3%;
+  padding: 10px 20px;
+}
+
+.footer p {
+  font-weight: 500;
+  font-size: larger;
+}
+
+select {
+  border: none;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-family: fontAwesome;
+  outline: none;
+  background-color: none;
+}
+
+option {
+  background-color: #e3e6f3;
+  font-weight: 700;
+}
+
+select:focus {
+  color: #daa6a6;
+}
+
+.content-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-items {
+  display: flex;
+  padding-right: 4px;
+  align-items: center;
+}
+
+.ridge {
+  margin-right: 4px;
+}
+
+.ridge:nth-child(1),
+.ridge:nth-child(2),
+.ridge:nth-child(3),
+.ridge:nth-child(4) {
+  color: red;
+}
+
+.mool {
+  margin-right: 10px;
+}
+
+.fas .fa-user-tie {
+  background-color: #bd8eaf;
+  border-radius: 50%;
+}
+
+select {
+  font-weight: 700;
+  font-size: larger;
+}
+
+.avatar {
+  background-color: #755e6e;
+  padding: 3px 8px;
+  border-radius: 50%;
+}
+
+/* .section-content_footer {
+  display: flex;
+}
+
+.footer {
+  flex: 3;
+  margin-left: 50%;
+  margin-top: 5%;
+  background-color: #e3e6f3;
+} */
